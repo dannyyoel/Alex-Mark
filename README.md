@@ -1,10 +1,9 @@
-<img src="IMG-20191205-WA0000 (1).png" height="240" alt="images">
-# Alex-Mark
-<html></html>
+<html>
+</html>
 <head>
 </head>
 <body>
-<main id="main" class="site-main yext-main" itemid="" itemscope="" itemtype="http://schema.org/HairSalon" itemref="page-url"><header class="header"><nav class="header-logo-wrapper"><a class="logo-link" href="h" rel="nofollow"><img src="" alt="Alex Mark logo" id="brand-logo" itemprop="logo"></a></nav></header>
+<main id="main" class="site-main yext-main" itemid="" itemscope="" itemtype="http://schema.org/HairSalon" itemref="page-url"><header class="header"><nav class="header-logo-wrapper"><a class="logo-link" href="" rel="nofollow"><img src="IMG-20191205-WA0000 (1).png" alt="Alex Mark logo" id="brand-logo" itemprop="logo"></a></nav></header>
 <div class="location-info-hero-row"><div class="location-info-hero-row-container l-container"><div class="location-info-hero-content"><h1 class="location-info-title" id="location-name" itemprop="name"> Alex Mark<br> Hair Stylist<br><span class="geomodifier">1369 Main St Dunedin,Largo Fl,<br>suit 4</br></span></h1>
 	<div class="location-info-reviews"></div>
 <div class="d-ReviewsSummary d-ReviewsSummary--link"><span class="d-ReviewsSummary-number">5.0 out of 5.0</span><span class="d-ReviewsSummary-stars d-ReviewsSummary-stars--link"><span class="d-ReviewStars"><span class="sr-only"> Rating 5.0</span><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="d-ReviewStars-star"><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="c-ReviewStars-star"><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="d-ReviewStars-star"><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="c-ReviewStars-star"><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="c-ReviewStars-star"></span></span><span class="c-ReviewsSummary-count"><a href="#reviews" data-ya-track="NapReviews" class="c-ReviewsSummary-link">(0 Reviews)</a><span class="c-ReviewsSummary-text hidden-xs"></span></span></div></div><div class="location-info-details"><div class="location-info-contactInfo"><h3 class="location-info-contactInfo-title">Contact Info
