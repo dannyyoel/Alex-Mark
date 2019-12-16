@@ -26,7 +26,7 @@
   <td class="c-location-hours-details-row-intervals"><span class="c-location-hours-details-row-intervals-instance "><span class="c-location-hours-details-row-intervals-instance-open">9:00 AM</span><span class="c-location-hours-details-row-intervals-instance-separator" aria-label="To"> - </span><span class="c-location-hours-details-row-intervals-instance-close">7:00 PM</span></span></td></tr><tr class="c-location-hours-details-row js-day-of-week-row highlight-text" data-day-of-week-start-index="2" data-day-of-week-end-index="2"><td class="c-location-hours-details-row-day">Wed</td><td class="c-location-hours-details-row-intervals"><span class="c-location-hours-details-row-intervals-instance "><span class="c-location-hours-details-row-intervals-instance-open">9:00 AM</span><span class="c-location-hours-details-row-intervals-instance-separator" aria-label="To"> -</span><span class="c-location-hours-details-row-intervals-instance-close">8:00 PM</span></span></td></tr></tbody></table></div></div></div></div></div></div></span></span></td></tr></a>
 </div>
  <a href="login2.0.html" title="login"> <div class="location-info-buttons"><a class="location-info-button location-info-cta1 button-primary" href="">BOOK AN APPOINTMENT</a><a class="location-info-button location-info-cta2 button-primary" href=""> CHECK IN NOW</a></div></a>
-<div class="im" id="divim"><img src="my firts site/images/image1.jpg" height="240" alt="images">
+<div class="im" id="divim"><img src="image1.jpg" height="240" alt="images">
 <img src="Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
 <img src="Screenshot_20191205-221016_Instagram.jpg" height="240" alt="images">
 <img src="Screenshot_20191203-093603_Instagram.jpg" height="240" alt="images">
