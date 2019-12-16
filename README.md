@@ -29,7 +29,7 @@
 <div class="im" id="divim"><img src="my firts site/images/image1.jpg" height="240" alt="images">
 <img src="Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
 <img src="Screenshot_20191205-221016_Instagram.jpg" height="240" alt="images">
-<img src="my firts site/images/Screenshot_20191203-093554_Instagram.jpg" height="240" alt="images">
+<img src="Screenshot_20191203-093603_Instagram.jpg" height="240" alt="images">
 <img src="Screenshot_20191203-093554_Instagram.jpg" height="240" alt="images">
 </div>
 <div class="services" id="div22">
