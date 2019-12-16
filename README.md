@@ -27,7 +27,7 @@
 </div>
  <a href="login2.0.html" title="login"> <div class="location-info-buttons"><a class="location-info-button location-info-cta1 button-primary" href="">BOOK AN APPOINTMENT</a><a class="location-info-button location-info-cta2 button-primary" href=""> CHECK IN NOW</a></div></a>
 <div class="im" id="divim"><img src="my firts site/images/image1.jpg" height="240" alt="images">
-<img src="my firts site/images/Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
+<img src="Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
 <img src="my firts site/images/Screenshot_20191205-221016_Instagram.jpg" height="240" alt="images">
 <img src="my firts site/images/Screenshot_20191203-093554_Instagram.jpg" height="240" alt="images">
 <img src="my firts site/images/Screenshot_20191203-093603_Instagram.jpg" height="240" alt="images">
