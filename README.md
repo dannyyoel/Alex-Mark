@@ -1,7 +1,11 @@
 <html>
-</html>
 <head>
+<style>
+body{
+    background-color: skyblue}
+</style>
 </head>
+</html>
 <body>
 <main id="main" class="site-main yext-main" itemid="" itemscope="" itemtype="http://schema.org/HairSalon" itemref="page-url"><header class="header"><nav class="header-logo-wrapper"><a class="logo-link" href="" rel="nofollow"><img src="IMG-20191205-WA0000 (1).png" alt="Alex Mark logo" id="brand-logo" itemprop="logo"></a></nav></header>
 <div class="location-info-hero-row"><div class="location-info-hero-row-container l-container"><div class="location-info-hero-content"><h1 class="location-info-title" id="location-name" itemprop="name"> Alex Mark<br> Hair Stylist<br><span class="geomodifier">1369 Main St Dunedin,Largo Fl,<br>suit 4</br></span></h1>
