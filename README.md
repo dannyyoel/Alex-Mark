@@ -31,7 +31,7 @@
 
 
 <div class="SIGN UP" id="div24"><span style="font-size: 20px">
-  <a href="my firts site/sign up.md" title="sign up" target="new">Sign up</a></span>
+  <a href="sign up.md" title="sign up" target="new">Sign up</a></span>
 </div>
 <div class="register"><button class="register"</button><span style="font-size: 20px"><a href="register.md" title"register">Register</a></span></div>
 <div class="im" id="divim"><img src="image1.jpg" height="240" alt="images">
