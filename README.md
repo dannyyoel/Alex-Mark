@@ -156,16 +156,16 @@ Define the keyframe and changes
 <div class="btn-group">
    <button type="buttons" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px">
    <div class="dropdown-menu">
-      <a class="dropdown-item" href="my firts site/sign up.html">sign up</a></button>
+      <a class="dropdown-item" href="sign up.md">sign up</a></button>
       <div class="dropdown-divider"></div
    </div>
 </div>
-<div class="register"><button class="register"</button><span style="font-size: 20px"><a href="my firts site/register.html" title"register">Register</a></span></div>
-<div class="im" id="divim"><img src="my firts site/images/image1.jpg" height="240" alt="images">
-<img src="my firts site/images/Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
-<img src="my firts site/images/Screenshot_20191205-221016_Instagram.jpg" height="240" alt="images">
-<img src="my firts site/images/Screenshot_20191203-093554_Instagram.jpg" height="240" alt="images">
-<img src="my firts site/images/Screenshot_20191203-093603_Instagram.jpg" height="240" alt="images">
+<div class="register"><button class="register"</button><span style="font-size: 20px"><a href="register.md" title"register">Register</a></span></div>
+<div class="im" id="divim"><img src="images/image1.jpg" height="240" alt="images">
+<img src="images/Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
+<img src="images/Screenshot_20191205-221016_Instagram.jpg" height="240" alt="images">
+<img src="images/Screenshot_20191203-093554_Instagram.jpg" height="240" alt="images">
+<img src="images/Screenshot_20191203-093603_Instagram.jpg" height="240" alt="images">
 </div>
 <div class="services" id="div22">
 	<table>
