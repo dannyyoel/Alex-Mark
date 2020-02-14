@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>comments</title>
+</head>
+	<style>
+#respond {
+  margin-top: 40px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'], 
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+
+  line-height: 1.4em;
+}
+		<?php
+require('Persistence.php');
+
+$db = new Persistence();
+if( $db->add_comment($_POST) ) {
+  header( 'Location: index.php' );
+}
+else {
+  header( 'Location: index.php?error=Your comment was not posted due to errors in your form submission' );
+}
+?>
+		<?php
+require('Persistence.php');
+$comment_post_ID = 1;
+$db = new Persistence();
+$comments = $db->get_comments($comment_post_ID);
+$has_comments = (count($comments) > 0);
+?>
+	#posts-list.has-comments li.no-comments {
+  display: none;
+}
+	$(function() {
+  $('#commentform').submit(handleSubmit);
+});
+	function handleSubmit() {
+  var form = $(this);
+  var data = {
+    "comment_author": form.find('#comment_author').val(),
+    "email": form.find('#email').val(),
+    "comment": form.find('#comment').val(),
+    "comment_post_ID": form.find('#comment_post_ID').val()
+  };
+
+  postComment(data);
+
+  return false;
+}
+
+function postComment(data) {
+  // send the data to the server
+}
+	function postComment(data) {
+  $.ajax({
+    type: 'POST',
+    url: 'post_comment.php',
+    data: data,
+    headers: {
+      'X-Requested-With': 'XMLHttpRequest'
+    },
+    success: postSuccess,
+    error: postError
+  });
+}
+
+function postSuccess(data, textStatus, jqXHR) {
+  // add comment to UI
+}
+
+function postError(jqXHR, textStatus, errorThrown) {
+  // display error
+}
+	function postSuccess(data, textStatus, jqXHR) {
+  $('#commentform').get(0).reset();
+  displayComment(data);
+}
+
+function displayComment(data) {
+  var commentHtml = createComment(data);
+  var commentEl = $(commentHtml);
+  commentEl.hide();
+  var postsList = $('#posts-list');
+  postsList.addClass('has-comments');
+  postsList.prepend(commentEl);
+  commentEl.slideDown();
+}
+
+function createComment(data) {
+  var html = ’ +
+  '<li><article id="' + data.id + '" class="hentry">' +
+    '<footer class="post-info">' +
+      '<abbr class="published" title="' + data.date + '">' +
+        parseDisplayDate(data.date) +
+      '</abbr>' +
+      '<address class="vcard author">' +
+        'By <a class="url fn" href="#">' + data.comment_author + '</a>' +
+      '</address>' +
+    '</footer>' +
+    '<div class="entry-content">' +
+      '<p>' + data.comment + '</p>' +
+    '</div>' +
+  '</article></li>';
+
+  return html;
+}
+
+function parseDisplayDate(date) {
+  date = (date instanceof Date? date : new Date( Date.parse(date) ) );
+  var display = date.getDate() + ' ' +
+                ['January', 'February', 'March',
+                 'April', 'May', 'June', 'July',
+                 'August', 'September', 'October',
+                 'November', 'December'][date.getMonth()] + ' ' +
+                date.getFullYear();
+  return display;
+}
+		$(function() {
+
+  $(document).keyup(function(e) {
+    e = e || window.event;
+    if(e.keyCode === 85){
+      displayComment({
+        "id": "comment_1",
+        "comment_post_ID": 1,
+        "date":"Tue, 21 Feb 2012 18:33:03 +0000",
+        "comment": "The realtime Web rocks!",
+        "comment_author": "Phil Leggetter"
+      });
+    }
+  });
+
+});
+	$ajax = ($_SERVER[ 'HTTP_X_REQUESTED_WITH' ] === 'XMLHttpRequest');
+	<?php
+require('Persistence.php');
+
+$ajax = ($_SERVER[ 'HTTP_X_REQUESTED_WITH' ] === 'XMLHttpRequest');
+
+$db = new Persistence();
+$added = $db->add_comment($_POST);
+
+if($ajax) {
+  sendAjaxResponse($added);
+}
+else {
+  sendStandardResponse($added); 
+}
+
+function sendAjaxResponse($added) {
+  header("Content-Type: application/x-javascript");
+  if($added) {
+    header( 'Status: 201' );
+    echo( json_encode($added) );
+  }
+  else {
+    header( 'Status: 400' );
+  }
+}
+
+function sendStandardResponse($added) {
+  if($added) {
+    header( 'Location: index.php' );
+  }
+  else {
+    header( 'Location: index.php?error=Your comment was not posted due to errors in your form submission' );
+  }
+}
+?><?php
+define('APP_ID', '947416');
+define('APP_KEY', '973fccc79d71d382bdf4');
+define('APP_SECRET', '11b48824e5d2801ded88');
+?>
+		<?php
+require('pusher_config.php);
+?>
+
+<script>
+var APP_KEY =973fccc79d71d382bdf4 '<?php echo(APP_KEY); ?>';
+</script>
+var pusher = new Pusher(APP_KEY);
+var channel = pusher.subscribe('comments-' + $('#comment_post_ID').val());
+channel.bind('new_comment', displayComment);
+<?php
+require('squeeks-Pusher-PHP/lib/Pusher.php');
+require('pusher_config.php');
+
+$pusher = new Pusher(APP_KEY, APP_SECRET, APP_ID);
+$pusher->trigger('comments-1', 'new_comment', array(
+  "comment_post_ID" => 1,
+  "date" => "Tue, 21 Feb 2012 18:33:03 +0000",
+  "comment" => "The realtime Web rocks!",
+  "comment_author" => "Phil Leggetter"
+));
+?>
+<?php
+require('Persistence.php');
+require('squeeks-Pusher-PHP/lib/Pusher.php');
+require('pusher_config.php');
+
+$ajax = ($_SERVER[ 'HTTP_X_REQUESTED_WITH' ] === 'XMLHttpRequest');
+
+$db = new Persistence();
+$added = $db->add_comment($_POST);
+
+if($added) {
+  $channel_name = 'comments-' . $added['comment_post_ID'];
+  $event_name = 'new_comment';
+
+  $pusher = new Pusher(APP_KEY, APP_SECRET, APP_ID);
+  $pusher->trigger($channel_name, $event_name, $added);
+}
+
+if($ajax) {
+  sendAjaxResponse($added);
+}
+else {
+  sendStandardResponse($added); 
+}
+
+function sendAjaxResponse($added) {
+  header("Content-Type: application/json");
+  if($added) {
+    header( 'Status: 201' );
+    echo( json_encode($added) );
+  }
+  else {
+    header( 'Status: 400' );
+  }
+}
+
+function sendStandardResponse($added) {
+  if($added) {
+    header( 'Location: index.php' );
+  }
+  else {
+    header( 'Location: index.php?error=Your comment was not posted due to errors in your form submission' );
+  }
+}
+?>
+	function handleSubmit() {
+  var form = $(this);
+  var data = {
+    "comment_author": form.find('#comment_author').val(),
+    "email": form.find('#email').val(),
+    "comment": form.find('#comment').val(),
+    "comment_post_ID": form.find('#comment_post_ID').val()
+  };
+
+  var socketId = getSocketId();
+  if(socketId !== null) {
+    data.socket_id = socketId;
+  }
+
+  postComment(data);
+
+  return false;
+}
+
+function getSocketId() {
+  if(pusher && pusher.connection.state === 'connected') {
+    return pusher.connection.socket_id;
+  }
+  return null;
+}
+	$channel_name = 'comments-' . $added['comment_post_ID'];
+$event_name = 'new_comment';
+$socket_id = (isset($_POST['socket_id'])?$_POST['socket_id']:null);
+
+$pusher = new Pusher(APP_KEY, APP_SECRET, APP_ID);
+$pusher->trigger($channel_name, $event_name, $added, $socket_id);
+Pusher.log = function(msg) {
+  if(window.console && window.console.log) {
+    window.console.log(new Date().getTime() + ': ' + msg);
+  }
+};
+var pusher = new Pusher(APP_KEY);
+
+pusher.connection.bind('state_change', function(states) {
+  Pusher.log('Connection state changed from: ' + states.previous + ' to ' + states.current);
+});
+			</style>
+<body>
+	<div id="respond">
+
+  <h3>Leave a Comment</h3>
+
+  <form action="post_comment.php" method="post" id="commentform">
+
+    <label for="comment_author" class="required">Your name</label>
+    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+    <label for="email" class="required">Your email;</label>
+    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+    <label for="comment" class="required">Your message</label>
+    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+    <-- comment_post_ID value hard-coded as 1 -->
+    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+    <input name="submit" type="submit" value="Submit comment" />
+
+  </form>
+</div>
+<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+	<ol id="posts-list" class="hfeed<?php echo($has_comments?' has-comments':’); ?>">
+  <li class="no-comments">Be the first to add a comment.</li>
+  <?php
+    foreach ($comments as $comment) {
+      ?>
+      <li><article id="comment_<?php echo($comment['id']); ?>" class="hentry">  
+        <footer class="post-info">
+          <abbr class="published" title="<?php echo($comment['date']); ?>">
+            <?php echo( date('d F Y', strtotime($comment['date']) ) ); ?>
+          </abbr>
+
+          <address class="vcard author">
+            <a class="url fn" href="#"><?php echo($comment['comment_author']); ?></a>
+          </address>
+        </footer>
+
+        <div class="entry-content">
+          <p><?php echo($comment['comment']); ?></p>
+        </div>
+      </article></li>
+      <?php
+    }
+  ?>
+</ol>
+<script src="https://js.pusher.com/5.1/pusher.min.js"></script>
+<script src="js/app.js"></script>
+<script src="https://js.pusher.com/5.1/pusher.min.js"></script>
+<script src="https://js.pusher.com/5.1/pusher.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
