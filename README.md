@@ -161,11 +161,11 @@ Define the keyframe and changes
    </div>
 </div>
 <div class="register"><button class="register"</button><span style="font-size: 20px"><a href="register.md" title"register">Register</a></span></div>
-<div class="im" id="divim"><img src="images/image1.jpg" height="240" alt="images">
-<img src="images/Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
-<img src="images/Screenshot_20191205-221016_Instagram.jpg" height="240" alt="images">
-<img src="images/Screenshot_20191203-093554_Instagram.jpg" height="240" alt="images">
-<img src="images/Screenshot_20191203-093603_Instagram.jpg" height="240" alt="images">
+<div class="im" id="divim"><img src="image1.jpg" height="240" alt="images">
+<img src="Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
+<img src="Screenshot_20191205-221016_Instagram.jpg" height="240" alt="images">
+<img src="Screenshot_20191203-093554_Instagram.jpg" height="240" alt="images">
+<img src="Screenshot_20191203-093603_Instagram.jpg" height="240" alt="images">
 </div>
 <div class="services" id="div22">
 	<table>
