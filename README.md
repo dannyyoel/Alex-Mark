@@ -115,12 +115,11 @@ Define the keyframe and changes
 }
 	}
 	.btn-group{
-		font-size: 40px;
+		font-size: 80px;
 	}
 
 .comments {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 20px;
+	font-size: auto;
 	font-size-adjust: auto;
 	font-display: auto;
 }
@@ -160,7 +159,7 @@ Define the keyframe and changes
       <div class="dropdown-divider"></div
    </div>
 </div>
-<div class="register"><button class="register"</button><span style="font-size: 20px"><a href="register.md" title"register">Register</a></span></div>
+<div class="register"><span style="font-size: 20px"><a href="register.md" title"register">Register</a></span></div>
 <div class="im" id="divim"><img src="image1.jpg" height="240" alt="images">
 <img src="Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
 <img src="Screenshot_20191205-221016_Instagram.jpg" height="240" alt="images">
