@@ -11,55 +11,6 @@ Define this in your CSS
 .bgAnimObj = body
 */
 
-body {
-		
-background:#FF0206;
-	/* Chrome, Safari */
-	-webkit-animation: Alex-Mark 15s infinite;
-	/* Firefox */
-	-moz-animation: Alex-Mark 15s infinite;
-	/* Standard Syntax */
-	animation: Alex-Mark 10s infinite;
-}
-
-/* 
-Define the keyframe and changes
-*/
-
-/* Chrome, Safari */
-@-webkit-keyframes Alex-Mark {
-	from {
- 		background:#FF0004;
-	} 
-	to {
- 		background:#03FF04;
-	}
-}
-
-/* Firefox */
-@-moz-keyframes Alex-Mark {
-    from {
-        background:#07FF00;
-    }
-    to {
-        background:#EEFF00;
-    }
-}
-
-/* Standard syntax */
-@keyframes Alex-Mark {
-	from {
-		background:#EEFF00;
-	}
-	to {
-		background-repeat: repeat;
-	
-}
-	}
-	.btn-group{
-		font-size: 80px;
-	}
-
 .comments {
 	font-size: auto;
 	font-size-adjust: auto;
