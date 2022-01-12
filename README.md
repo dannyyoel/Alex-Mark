@@ -5,10 +5,7 @@
 <title>project</title>
 <style type="text/css">
 
-	/* 
-Define this in your CSS 
-.bgColor = Alex-Mark
-.bgAnimObj = body
+
 </style>
 </head>
 </html>
