@@ -4,130 +4,11 @@
 <meta charset="UTF-8">
 <title>project</title>
 <style type="text/css">
-	/* Dropdown Button */
-.dropbtn {
-background-color: red;
-color: auto;
-padding: 16px;
-font-size: 16px;
-border: none;
-}
-.dropdown {
-position: relative;
-display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-display: none;
-position: absolute;
-background-color: auto;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-}
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
-	.dropdown:hover .dropbtn {background-color:chartreuse:}
-.d-address {
-}
-.d-phone-main-number-link {
-}
-#div20 {
-	position: absolute;
-}
-body{
-	background-color: #115CB8;
-}
-#divim {
-	font-size: 30pxpx;
-}
-
-@media screen{
-	background-color{black}
-}
-	#div24{
-		font-size-adjust:auto;
-	}
-	.register{
-		font-size-adjust: auto;
-	}
-	h3{
-		font-size-adjust: auto; 
-	}
-	/* 
-Define this in your CSS 
-.bgColor = Alex-Mark
-.bgAnimObj = body
-*/
-
-body {
-		
-background:#FF0206;
-	/* Chrome, Safari */
-	-webkit-animation: Alex-Mark 15s infinite;
-	/* Firefox */
-	-moz-animation: Alex-Mark 15s infinite;
-	/* Standard Syntax */
-	animation: Alex-Mark 10s infinite;
-}
-
-/* 
-Define the keyframe and changes
-*/
-
-/* Chrome, Safari */
-@-webkit-keyframes Alex-Mark {
-	from {
- 		background:#FF0004;
-	} 
-	to {
- 		background:#03FF04;
-	}
-}
-
-/* Firefox */
-@-moz-keyframes Alex-Mark {
-    from {
-        background:#07FF00;
-    }
-    to {
-        background:#EEFF00;
-    }
-}
-
-/* Standard syntax */
-@keyframes Alex-Mark {
-	from {
-		background:#EEFF00;
-	}
-	to {
-		background-repeat: repeat;
 	
-}
-	}
-	.btn-group{
-		font-size: 80px;
-	}
-
-.comments {
-	font-size: auto;
-	font-size-adjust: auto;
-	font-display: auto;
-}
 </style>
 </head>
 </html>
 <body>
-<main id="main" class="site-main yext-main" itemid="" itemscope="" itemtype="" itemref="page-url"><header class="header"><nav class="header-logo-wrapper"><a class="logo-link" href="" rel="nofollow"><img src="logoimage.png" alt="Alex Mark logo" width="1131" height="217" class="main-logo" itemprop="logo"></a></nav></header>
 <div class="location-info-hero-row"><div class="location-info-hero-row-container l-container"><div class="location-info-hero-content"><h1 class="location-info-title" id="location-name" itemprop="name"> Alex Mark<br> Hair Stylist<br><span class="geomodifier">1220 Cleveland St.,Clearwater, FL 33755</span></h1>
 	<div class="location-info-reviews"></div>
 <div class="d-ReviewsSummary d-ReviewsSummary--link"><span class="d-ReviewsSummary-number">5.0 out of 5.0</span><span class="d-ReviewsSummary-stars d-ReviewsSummary-stars--link"><span class="d-ReviewStars"><span class="sr-only"> Rating 5.0</span><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="d-ReviewStars-star"><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="c-ReviewStars-star"><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="d-ReviewStars-star"><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="c-ReviewStars-star"><img src="my firts site/images/full-star (1).svg" alt="" width="27" height="27" class="c-ReviewStars-star"></span></span><span class="c-ReviewsSummary-count"><a href="#reviews" data-ya-track="NapReviews" class="c-ReviewsSummary-link">(0 Reviews)</a><span class="c-ReviewsSummary-text hidden-xs"></span></span></div></div><div class="location-info-details"><div class="location-info-contactInfo"><h3 class="location-info-contactInfo">Contact Info
@@ -213,9 +94,7 @@ Define the keyframe and changes
 	</table>
 </div>
 <div class="about-wrapper"><section id="about" class="about-section"><div class="about"><h2 class="about-header-icon section-header-icon" aria-level="2">About Alex Mark</h2><div class="about-content-wrapper"><div class="about-text-wrapper"><div class="c-description"><span itemprop="description">Alex Marck Hairstylist is located in Dunedin, Fl. He's a wedding and special ocasions specialist. Winner of awards in nationals and international competitions, making him a reconized stylist in the area.<br> He is also a specialist in color changes and haircuts and despite being located in Dunedin Fl, offers on location services. call and Schedule your appoinment right now.</span></div><a class=""></a></div></div></div></section></div>
-<div class="about-content-wrapper"><div class="footer"><div class="container"><a href="" data-ya-track="Footer_Logo" class="footer-logo-link"><img src="logoimage.1.png" alt="Alex Mark logo" width="177" height="81" class="footer-logo"></a>
-  <div class="comments" id="comment"><a href="comments.html"> leave a comment</a></div>
-  <div class="footer-social-link-wrapper"><a href="https://m.facebook.com/alexmarkhairdesigner" class="footer-social-link fb-link" width="40" height="28"><img src="icon-facebook.svg" alt="Facebook" width="40" height="28"></a><a href="https://www.youtube.com/user/PATRICKBOBDANCER" width="40" height="28"><img src="icon-youtube.svg"width="40" height="28"></a><a href="http://instagram.com/haircuttery?utm_source=Yext&amp;utm_medium=Pages&amp;utm_campaign=Insta" class="footer-social-link instagram-link"><img src="icon-instagram.svg" alt="Instagram" width="40" height="28"></a></div><div class="footer-corporate-link-wrapper"><div><a href="">Privacy/Terms</a></div><div><a href="contact.html" class="footer-corporate-link footer-contact-link">Contact Us</a></div><div><a href="" class="footer-corporate-link footer-contact-link">Web Accessibility</a></div></div><div class="footer-copyright-wrapper"><div class="footer-copyright"><span class="c-copy-date">© 2019</span> Alex Mark. All Rights Reserved.</div><img class="footer-ada-img" style="cursor: pointer;" src="" alt="Compliance Policy" onclick="window.open('https://adasitecompliance.com/AP_HC/', '_blank');"></div></div></div></main>
+
 </body>
 
 
