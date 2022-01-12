@@ -33,14 +33,6 @@
   <td class="c-location-hours-details-row-intervals"><span class="c-location-hours-details-row-intervals-instance "><span class="c-location-hours-details-row-intervals-instance-open">9:00 AM</span><span class="c-location-hours-details-row-intervals-instance-separator" aria-label="To"> - </span><span class="c-location-hours-details-row-intervals-instance-close">7:00 PM</span></span></td></tr><tr class="c-location-hours-details-row js-day-of-week-row highlight-text" data-day-of-week-start-index="2" data-day-of-week-end-index="2"><td class="c-location-hours-details-row-day">Wed</td><td class="c-location-hours-details-row-intervals"><span class="c-location-hours-details-row-intervals-instance "><span class="c-location-hours-details-row-intervals-instance-open">9:00 AM</span><span class="c-location-hours-details-row-intervals-instance-separator" aria-label="To"> -</span><span class="c-location-hours-details-row-intervals-instance-close">8:00 PM</span></span></td></tr></tbody></table></div></div></div></div></div></div></span></span></td></tr></a>
 </div>
 
-<!-- Single button -->
-<div class="btn-group">
-   <button type="buttons" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px">
-   <div class="dropdown-menu">
-      <a class="dropdown-item" href="sign up.md">sign up</a></button>
-      <div class="dropdown-divider"></div
-   </div>
-</div>
 <div class="register"><span style="font-size: 20px"><a href="register.md" title"register">Register</a></span></div>
 <div class="im" id="divim"><img src="image1.jpg" height="240" alt="images">
 <img src="Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
