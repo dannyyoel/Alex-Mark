@@ -9,13 +9,6 @@
 Define this in your CSS 
 .bgColor = Alex-Mark
 .bgAnimObj = body
-*/
-
-.comments {
-	font-size: auto;
-	font-size-adjust: auto;
-	font-display: auto;
-}
 </style>
 </head>
 </html>
