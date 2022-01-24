@@ -21,8 +21,6 @@
   <div class="location-info-phone">
   <div class="d-phone-number c-phone-main-number"><a class="d-phone-number-link d-phone-main-number-link" href="tel:+1-727-409-5993"><pseudo:after>(727)409-5993</pseudo:after></a><span class="c-phone-number-span c-phone-main-number-span" itemprop="telephone" id="telephone"></span></div></div>
 <a href="https://www.google.com/maps/place/Salon+Suites+on+Main/@28.0192665,-82.7686711,21z/data=!4m5!3m4!1s0x88c2f228ed65f269:0x48cce295bf3ecde2!8m2!3d28.0192771!4d-82.7685291" class="location-directions-link link-primary">Get Directions</a></div></div>
-<div class="dropdown">
-<button class="dropbtn">Hours of Operation</button>
 
 <div class="dropdown-content">
 <a href="#"><div class="location-info-hours-container"><div class="location-info-hours"><h3 class="location-info-hours-title">Hours of Operation</h3><div id="location-info-hours-collapse" class="collapse"><div class="c-location-hours"><!-- Empty header contents --><div class="c-location-hours-details-wrapper js-location-hours" data-days="[{&quot;day&quot;:&quot;MONDAY&quot;,&quot;intervals&quot;:[{&quot;end&quot;:2100,&quot;start&quot;:900}]},{&quot;day&quot;:&quot;TUESDAY&quot;,&quot;intervals&quot;:[{&quot;end&quot;:2100,&quot;start&quot;:900}]},{&quot;day&quot;:&quot;WEDNESDAY&quot;,&quot;intervals&quot;:[{&quot;end&quot;:2100,&quot;start&quot;:900}]},{&quot;day&quot;:&quot;THURSDAY&quot;,&quot;intervals&quot;:[{&quot;end&quot;:2100,&quot;start&quot;:900}]},{&quot;day&quot;:&quot;FRIDAY&quot;,&quot;intervals&quot;:[{&quot;end&quot;:2100,&quot;start&quot;:900}]},{&quot;day&quot;:&quot;SATURDAY&quot;,&quot;intervals&quot;:[{&quot;end&quot;:2000,&quot;start&quot;:800}]},{&quot;day&quot;:&quot;SUNDAY&quot;,&quot;intervals&quot;:[{&quot;end&quot;:1800,&quot;start&quot;:900}]}]" data-showopentoday="" data-disabletodayfirst=""><table class="c-location-hours-details"><thead class="sr-only"><tr><th>Day of the Week</th><th>Hours</th></tr></thead><tbody><tr class="c-location-hours-details-row js-day-of-week-row highlight-text is-today js-is-today" data-day-of-week-start-index="3" data-day-of-week-end-index="3"><td class="c-location-hours-details-row-day">Thu</td>
@@ -31,7 +29,11 @@
   <td class="c-location-hours-details-row-intervals">Close</td></tr><tr class="c-location-hours-details-row js-day-of-week-row highlight-text" data-day-of-week-start-index="1" data-day-of-week-end-index="1"><td class="c-location-hours-details-row-day">Tue</td>
   <td class="c-location-hours-details-row-intervals"><span class="c-location-hours-details-row-intervals-instance "><span class="c-location-hours-details-row-intervals-instance-open">9:00 AM</span><span class="c-location-hours-details-row-intervals-instance-separator" aria-label="To"> - </span><span class="c-location-hours-details-row-intervals-instance-close">7:00 PM</span></span></td></tr><tr class="c-location-hours-details-row js-day-of-week-row highlight-text" data-day-of-week-start-index="2" data-day-of-week-end-index="2"><td class="c-location-hours-details-row-day">Wed</td><td class="c-location-hours-details-row-intervals"><span class="c-location-hours-details-row-intervals-instance "><span class="c-location-hours-details-row-intervals-instance-open">9:00 AM</span><span class="c-location-hours-details-row-intervals-instance-separator" aria-label="To"> -</span><span class="c-location-hours-details-row-intervals-instance-close">8:00 PM</span></span></td></tr></tbody></table></div></div></div></div></div></div></span></span></td></tr></a>
 </div>
-
+<div class="btn-group">
+   <button type="buttons" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px">
+   <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://master.d27znegtg97jhz.amplifyapp.com">sign up</a></button>
+	   <div class="dropdown-divider"></div>
 <div class="im" id="divim"><img src="image1.jpg" height="240" alt="images">
 <img src="Screenshot_20191126-094307_Instagram.jpg" height="240" alt="images">
 <img src="Screenshot_20191205-221016_Instagram.jpg" height="240" alt="images">
