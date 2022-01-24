@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"
-        <title>Alex Mark </title>
+        <title> Alex Mark </title>
 <style type="text/css">
 
 
