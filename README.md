@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
 <title>project</title>
-<style type="text/css">
 	
-</style>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
 </head>
 </html>
 <body>
@@ -21,8 +21,15 @@
   <div class="d-phone-number c-phone-main-number"><a class="d-phone-number-link d-phone-main-number-link" href="tel:+1-727-409-5993"><pseudo:after>(727)409-5993</pseudo:after></a><span class="c-phone-number-span c-phone-main-number-span" itemprop="telephone" id="telephone"></span></div></div>
 <a 
 
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />class="location-directions-link link-primary">Get Directions</a></div></div>
+<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZGFubnl5bzEiLCJhIjoiY2t5dnFyaWN1MDE3MDJ2dGRhYTRucm9lNCJ9.uRL_HdqBFt9whADin-ogdw';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11'
+  });
+</script>
+<class="location-directions-link link-primary">Get Directions</a></div></div>
 <div class="dropdown">
 <button class="dropbtn">Hours of Operation</button>
 
