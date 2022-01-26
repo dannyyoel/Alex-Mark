@@ -19,7 +19,10 @@
   </address>
   <div class="location-info-phone">
   <div class="d-phone-number c-phone-main-number"><a class="d-phone-number-link d-phone-main-number-link" href="tel:+1-727-409-5993"><pseudo:after>(727)409-5993</pseudo:after></a><span class="c-phone-number-span c-phone-main-number-span" itemprop="telephone" id="telephone"></span></div></div>
-<a href="https://www.google.com/maps/place/Alex+Mark+Beautysalon/@27.9657878,-82.7888078,17z/data=!3m1!4b1!4m5!3m4!1s0x88c2f161f653a2b3:0xd58555cd15cf1ea7!8m2!3d27.9657893!4d-82.7866192" class="location-directions-link link-primary">Get Directions</a></div></div>
+<a 
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />class="location-directions-link link-primary">Get Directions</a></div></div>
 <div class="dropdown">
 <button class="dropbtn">Hours of Operation</button>
 
